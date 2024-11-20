@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: beige;  
+}
+
+.page-title {
+    background-color: beige;
+    color: dimgray;
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 16px;
+}
+.animal-tabs {
+    background-color: cadetblue;
+    color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.tab {
+    background-color:dimgray;
+    padding: 16px;
+    color: beige;
+    border-radius: 16px;
+}
+
+.active {
+    background-color: cadetblue;
+    color: dimgray;
+}
+
+.search-field {
+    text-align: center;
+    padding: 16px;
+    color: cornflowerblue;
+}
+
+.search-field input {
+    border-radius: 8px;
+    padding: 16px;
+    border-color: blueviolet;
+
+}
